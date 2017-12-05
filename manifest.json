@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "manifest_version": 2,
+  "name": "Redmine Search",
+  "content_scripts": [
+    {
+      "matches": ["https://secure.artegence.com/redmine/*"],
+      "js": ["jquery.min.js", "script.js"]
+    }
+  ]
+}
